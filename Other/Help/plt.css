@@ -1,0 +1,45 @@
+html {
+  overflow-y: scroll;
+}
+body {
+  color: black;
+  background-color: white;
+  font-family: Optima, Arial, Verdana, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.bodycontent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 45em;
+}
+.racketnav {
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 1em;
+  padding: 0.5em 0em;
+  white-space: nowrap;
+  font-family: Optima, Arial, Verdana, Helvetica, sans-serif;
+  text-align: center;
+}
+.racketnav a {
+  color: #fff;
+  text-decoration: none;
+}
+.racketnav .navtitle {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.parlisttitle {
+  margin-bottom: 0.5em;
+}
+.parlistitem {
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+}
