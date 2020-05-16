@@ -2,12 +2,13 @@
 
 
 ## Introduction
-
-
-## How to Create Portable Installer
 I was looking for a portable installer for Racket  when I came across this article: [Portable Racket for Windows Users](https://www.wisdomandwonder.com/link/5656/portable-racket-for-windows-users).
 
 It provides us with a template for creating a portable installer in the portableapps.com standard. Then I decided to clone the original repository (which uses Mercurial) for my own use. 
+
+You can download binaries from [release page](https://github.com/plicatibu/racket-portable/releases/) or make your own installer.
+
+## How to Create Portable Installer
 
 
 ## Instructions
@@ -20,7 +21,7 @@ I wrote a step by step routine considering that I'll create aportable installer 
 
 1.3. Install NSIS Portable, PortableApps.com Launcher and PortableApps.com Installer .  Use PortableApps.com Platform to install (you could download them directly and manually install them, but it will be much more work IMHO).
 
-1.4. Download the Racket Installer. You can get the most  recent  one from (here)[https://download.racket-lang.org/). You can download both 32 and 64 bits versions. 32 bits version has the advantage of working in both systems.
+1.4. Download the Racket Installer. You can get the most recent one from [here](https://download.racket-lang.org/). You can download both 32 and 64 bits versions. 32 bits version has the advantage of working in both systems.
 
 1.5. Install Racket into the App/Racket subdirectory of the cloned repositpry. In my example, I would Install Racket in  `C:\Users\plica\convert_to_portable\racket-portable\App\Racket`.
 
